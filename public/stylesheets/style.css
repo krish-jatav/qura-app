@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+}
+
+#main .users {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#main .users .user {
+    flex-shrink: 0;
+    max-height: 40vh;
+}
+
+#main .users .user img {
+    height: 20vh;
+    width: 15vw;
+    object-fit: cover;
+}
